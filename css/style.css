@@ -1,0 +1,170 @@
+/*========== css common start ==========*/
+.root{
+    --primary-font:"poppins", sans-serif;
+    --secondary-font: "PT sans", sans-serif;
+    --primary-color: #FFCC00;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,small,span{
+    margin: 0;
+    padding: 0;
+}
+ol ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+#primary-nav #primary-menu ul li a{
+    color: #353535;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; 
+    text-transform: uppercase;
+    margin-top: 13px;
+    padding: 5px 28px;
+    position: relative;
+}
+#primary-nav #primary-menu ul li a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #353535;
+    bottom: 0;
+    right: 0;
+    transition: .5s;
+}
+
+#primary-nav #primary-menu ul li a:hover::after{
+    width: 100%;
+    left: 0;
+}
+/*========== css common end ==========*/
+
+/*========== banner common start ==========*/
+#banner{
+    padding: 173px 143px;
+
+}
+#banner p{
+    color: #353535;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#banner h1{
+    width: 708px;
+    color: #353535;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#banner h4{
+    width: 625px;
+    color: #353535;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+    margin-bottom: 77px;
+}
+#banner .banner-btn{
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding: 16px 45px;
+    display: inline;
+    margin: 10px;
+}
+#banner .banner-btn:hover{
+    background-color: #FFCC00;
+}
+
+#banner .banner-icon ul li{
+    list-style-type: none;
+    color: #353535;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    margin-top: 66px;
+}
+
+#banner .banner-icon a i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F4F3F3;
+    margin: 0 10px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: flex-end;
+    padding-top: 10px;
+
+}
+/*========== banner common end ==========*/
+
+/*========== about common start ==========*/
+#about{
+    background-color: #FFCC00;
+}
+#about h2{
+    margin: 85px 0 26px;
+    color: #353535;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#about p{
+    width: 570px;
+    color: #353535;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+}
+
+#about a{
+    padding: 17px 44px;
+    margin-top: 45px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    color: #353535;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    
+}
+#about .color-img img{
+    transform: translateX(300px);
+    
+}
+/*========== about common end ==========*/
+
+
+
+
+
+
+
+
+
+
+/*========== footer common start ==========*/
+footer{
+    background-image: url(./../img/footer-bg.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 71px 0 85px;
+}
+footer ul li{
+    list-style-type: none;
+}
+/*========== footer common end ==========*/
